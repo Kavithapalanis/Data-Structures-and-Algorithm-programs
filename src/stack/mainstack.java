@@ -1,6 +1,6 @@
 package stack;
 public class mainstack {
-
+    
 	public static void main(String[] args) {
 		stack nums = new stack();
 		nums.push(15);
