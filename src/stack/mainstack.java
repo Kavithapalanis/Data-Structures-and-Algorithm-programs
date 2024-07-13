@@ -8,7 +8,7 @@ public class mainstack {
 		System.out.println(nums.peek()+" ");
 		nums.push(10);
 		
-		System.out.println(nums.pop()+" ");
+		//System.out.println(nums.pop()+" ");
 		
 		nums.show();
 		
