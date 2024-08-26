@@ -1,6 +1,6 @@
-// approaching the problem with static method so that we can access the method with out creating the
+// approaching the problem with static method so that we can access the method with out creating the 
 // object instance
-// using 1. double datatype = give greater precision compare to int handles decimal values
+// using 1. double datatype = gives greater precision compare to int handles decimal values
 //       2. flexibility = using double give more flexible ,handles int and floating points also
 //       3. standard practice = its standard practie to use double to avoid unintended truncating
 //or rounded errorstat can occur with 'int' 

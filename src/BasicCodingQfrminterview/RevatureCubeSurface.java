@@ -1,4 +1,4 @@
-// fince cube surface[6*(a*a)
+// find cube surface[6*(a*a)
 // testcase:- input = 2
 //          output = 24
 //method 1:to aproach the problem with creating class and
