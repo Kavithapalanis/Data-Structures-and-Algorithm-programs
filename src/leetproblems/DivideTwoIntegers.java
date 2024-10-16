@@ -3,13 +3,13 @@
 The integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2.
 
 Return the quotient after dividing dividend by divisor. */
-package leetcodeProblems;
+package leetproblems;
 //dividend=  10,divisor= 3
 //3+3+3 = gives approximate solution to the dividend with out using mult,mod,div adding the divisor to get dividend --> approach 1 to solve(time complexity exceeds O(devidend))
 //to optimize this-->[bit manipulation to simulate division, leveraging left shifts for efficient subtraction of multiples.]
 
+import leetproblems.DivideTwoIntegers;
 
-    
 public class DivideTwoIntegers {
 	public int divide(int dividend, int divisor) {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
@@ -50,10 +50,5 @@ public class DivideTwoIntegers {
         System.out.println("Divide Integer.MIN_VALUE by -1: " + solution.divide(Integer.MIN_VALUE, -1)); // Output: 2147483647
         System.out.println("Divide Integer.MIN_VALUE by 1: " + solution.divide(Integer.MIN_VALUE, 1)); // Output: -2147483648
     }
+
 }
-	
-		
-
-	
-
-
